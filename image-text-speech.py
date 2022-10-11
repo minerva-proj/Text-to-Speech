@@ -19,7 +19,7 @@ from pygame import mixer
 
 #IMAGE TO TEXT
 # Path to the image
-imagePath = "D:\BKP\D Drive\Medikabazaar\Invoices\images\Original\OHI marketing.jpg"
+imagePath = " "
 imgRead = np.array(Image.open(imagePath))
 
 # path to tesseract engine
@@ -32,9 +32,9 @@ language = 'en'
 myobj = gTTS(text=getTheText, lang=language, slow=False)
   
 # Saving the converted audio in a mp3 file named
-myobj.save(r"D:\BKP\D Drive\Medikabazaar\Invoices\images\Original\textToSpeech.mp3")
+myobj.save(r" ")
   
 # Playing the converted file
 mixer.init()
-mixer.music.load(r"D:\BKP\D Drive\Medikabazaar\Invoices\images\Original\textToSpeech.mp3")
+mixer.music.load(r" ")
 mixer.music.play()
