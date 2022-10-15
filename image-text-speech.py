@@ -1,11 +1,3 @@
-## Download tesseract engine from: https://osdn.net/projects/sfnet_tesseract-ocr-alt/downloads/tesseract-ocr-setup-3.02.02.exe/
-## Install following libraries:
-# pip install pytesseract
-# pip install opencv-python
-# pip install pillow
-# pip install gTTS
-# pip install pygame
-
 # Import liraries
 import pytesseract
 from pytesseract import Output
